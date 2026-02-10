@@ -1,0 +1,53 @@
+{
+  "image_path": "OCRBench_Images/IC15_1811/imgs/000000229.jpg",
+  "query": "识别图片中的文字",
+  "task_plan": {
+    "needs_super_resolution": false,
+    "super_resolution_reason": "图片已经是高分辨率，没有需要进一步提高的",
+    "needs_layout_detection": false,
+    "layout_detection_reason": "图片中的文字布局简单，不需要进一步的布局检测",
+    "text_complexity": "simple",
+    "reasoning": "图片中的文字是 'coffee'，文字清晰度高，布局简单，不需要进一步的预处理",
+    "quality_analysis": {
+      "width": 64,
+      "height": 29,
+      "resolution": "64x29",
+      "laplacian_var": 3478.5654912306777,
+      "is_blurry": false,
+      "is_low_resolution": true,
+      "sharpness_score": 100
+    },
+    "image_path": "OCRBench_Images/IC15_1811/imgs/000000229.jpg",
+    "query": "识别图片中的文字",
+    "raw_output": "```json\n{\n  \"needs_super_resolution\": false,\n  \"super_resolution_reason\": \"图片已经是高分辨率，没有需要进一步提高的\",\n  \"needs_layout_detection\": false,\n  \"layout_detection_reason\": \"图片中的文字布局简单，不需要进一步的布局检测\",\n  \"text_complexity\": \"simple\",\n  \"reasoning\": \"图片中的文字是 'coffee'，文字清晰度高，布局简单，不需要进一步的预处理\"\n}\n```"
+  },
+  "classification": {
+    "image_path": "OCRBench_Images/IC15_1811/imgs/000000229.jpg",
+    "label": "hand",
+    "confidence": 0.9863647222518921,
+    "probabilities": {
+      "hand": 0.9863647222518921,
+      "printed": 0.013635296374559402
+    }
+  },
+  "execution_plan": {
+    "agents": [
+      {
+        "name": "HandOCRAgent",
+        "order": 1,
+        "description": "手写体文字识别",
+        "task_prompt": "Recognize handwritten text from this image.\n\nClassification Confidence: 0.986\nText Complexity: simple\n\nTask: Accurately recognize all handwritten text in the image.\nFocus on:\n- Handling cursive and script writing styles\n- Maintaining proper word boundaries\n- Preserving text layout and structure\n- Handling varying writing quality\n\nUser Query: 识别图片中的文字\n\nPlease extract all visible text and maintain the original reading order.",
+        "input": "OCRBench_Images/IC15_1811/imgs/000000229.jpg",
+        "output": null
+      }
+    ],
+    "execution_flow": "sequential",
+    "total_agents": 1
+  },
+  "metadata": {
+    "phi35_reasoning": "图片中的文字是 'coffee'，文字清晰度高，布局简单，不需要进一步的预处理",
+    "text_type_verified": "hand",
+    "classification_confidence": 0.9863647222518921
+  },
+  "planning_time": 18.436091899871826
+}
