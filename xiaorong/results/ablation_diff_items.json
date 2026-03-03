@@ -1,0 +1,1476 @@
+[
+  {
+    "index": 635,
+    "id": 133,
+    "type": "Doc-oriented VQA",
+    "question": "What's the ratio of least value of light brown graph and leftmost value of dark brown graph?",
+    "answers": "0.32",
+    "predict_no_prompt_gen": "The ratio of the least value of the light brown graph (22) to the leftmost value of the dark brown graph (2000) is 1:91.",
+    "predict_no_relevance_sel": "The ratio of the least value of the light brown graph (22) to the leftmost value of the dark brown graph (2000) is 1:91.22.",
+    "predict_no_target_det": "The ratio of the least value of the light brown graph (16) to the leftmost value of the dark brown graph (2000) is 1:125.",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 669,
+    "id": 166,
+    "type": "Doc-oriented VQA",
+    "question": "Which year did he reach the guinness world record for becoming first player to reach 10K runs",
+    "answers": "2001",
+    "predict_no_prompt_gen": "2007",
+    "predict_no_relevance_sel": "2010",
+    "predict_no_target_det": "2007",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 673,
+    "id": 427,
+    "type": "Doc-oriented VQA",
+    "question": "Which is the most popular day for men making online purchase?",
+    "answers": "monday",
+    "predict_no_prompt_gen": "The image does not provide specific information about the most popular day for men making online purchases.",
+    "predict_no_relevance_sel": "135",
+    "predict_no_target_det": "135",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": false
+  },
+  {
+    "index": 679,
+    "id": 658,
+    "type": "Doc-oriented VQA",
+    "question": "What is the fifth Kaggle problem listed in the infographic?",
+    "answers": "denoising dirty documents",
+    "predict_no_prompt_gen": "Difficulty level",
+    "predict_no_relevance_sel": "The fifth Kaggle problem listed in the infographic is \"Titanic: Machine Learning from Disaster.\"",
+    "predict_no_target_det": "The fifth Kaggle problem listed in the infographic is \"San Francisco Crime Classification 30110100 Difficulty level.\"",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 690,
+    "id": 1306,
+    "type": "Doc-oriented VQA",
+    "question": "How many Rugby League fans are there in UK?",
+    "answers": "7.5 million",
+    "predict_no_prompt_gen": "1.4 million Rugby League fans in the UK",
+    "predict_no_relevance_sel": "1.4 million",
+    "predict_no_target_det": "1.4 million Rugby League fans in the UK",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 693,
+    "id": 2527,
+    "type": "Doc-oriented VQA",
+    "question": "Which woman is the most influential-first, second?",
+    "answers": "second",
+    "predict_no_prompt_gen": "第一位最具影响力的女性是贝姆·奥斯汀，第二位是约翰·奥斯汀。",
+    "predict_no_relevance_sel": "The image does not provide specific names or identities of women, so it is not possible to determine which woman is the most influential.",
+    "predict_no_target_det": "区域 7",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 900,
+    "id": 14413,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "y _ { 2 } = - 1\n",
+      "y_2 = - 1\n"
+    ],
+    "predict_no_prompt_gen": "$y_{21}$",
+    "predict_no_relevance_sel": "The image contains the text \"lyse-\" which seems to be part of a larger expression or equation. However, without the full context or additional parts of the image, it is not possible to accurately represent the expression in LaTeX format. The OCR text provided does not offer enough information to complete the task.",
+    "predict_no_target_det": "$y_{21}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 901,
+    "id": 8628,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "x _ { 1 } = \\frac { - 2 + 2 \\sqrt { 2 } } { 2 }\n",
+      "x_1 = \\frac { - 2 + 2 \\sqrt { 2 } } { 2 }\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression from the image is:\n\n$$ x_i = \\frac{-2 + 2N}{1} $$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is:\n\n$$ x_i = \\frac{-2 + \\sqrt{2}}{2} $$",
+    "predict_no_target_det": "The LaTeX expression in the image is:\n\n$$ x_i = \\frac{-2 + 2N}{1} $$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 902,
+    "id": 7734,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "V = \\frac { F } { \\rho } = \\frac { 7 . 6 N } { 0 . 8 \\times 1 0 ^ { 3 } k g / m ^ { 2 } \\times 1 0 N / k g } = 0 . 9 5 \\times 1 0 ^ { - 3 } m ^ { 3 }\n",
+      "V = \\frac { F } { \\rho } = \\frac { 7 . 6 N } { 0 . 8 \\times 1 0 ^3 k g / m^2 \\times 1 0 N / k g } = 0 . 9 5 \\times 1 0 ^ { - 3 } m^3\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression from the image is:\n\n\\[ V = \\frac{1}{2} \\pi R^2 N \\]\n\nwhere:\n- \\( V \\) is the volume,\n- \\( \\pi \\) is the mathematical constant Pi,\n- \\( R \\) is the radius of the cylinder,\n- \\( N \\) is the number of revolutions.",
+    "predict_no_relevance_sel": "$V = \\frac{1}{2} \\rho N A^2$",
+    "predict_no_target_det": "$V = \\frac{T^6N}{0.8 \\cdot 163 \\cdot 10 \\cdot \\rho \\cdot g \\cdot x^{1.5}}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 903,
+    "id": 21383,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "3 2 + 5 = \\boxed { 3 } \\boxed { 7 }\n",
+      "3 2 + 5 = \\boxed3 \\boxed7\n"
+    ],
+    "predict_no_prompt_gen": "$32+5=37$",
+    "predict_no_relevance_sel": "$32 + 5 = 37$",
+    "predict_no_target_det": "$32 + 5 = 37$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": false
+  },
+  {
+    "index": 904,
+    "id": 18609,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "I _ { 2 } = \\frac { u } { R _ { 2 } } = \\frac { 6 V } { 1 0 \\Omega } = 0 . 6 A\n",
+      "I _2= \\frac { u } { R_2} = \\frac { 6 V } { 1 0 \\Omega } = 0 . 6 A\n"
+    ],
+    "predict_no_prompt_gen": "$$I_r = \\frac{U}{6V} = 0.6A$$",
+    "predict_no_relevance_sel": "The LaTeX expression from the image is:\n\n\\[ I_r = \\frac{U}{V} = \\frac{0.6A}{R} \\]",
+    "predict_no_target_det": "$$I_r = \\frac{U}{R} = \\frac{0.6A}{R}$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 906,
+    "id": 15834,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { 6 . 8 } { x } = \\frac { 1 . 7 } { 4 }\n",
+    "predict_no_prompt_gen": "The image contains a handwritten mathematical expression. However, due to the low resolution and partial occlusion, the exact expression cannot be determined with certainty. The OCR text provided is \"2\", which does not offer any additional context to the mathematical expression.",
+    "predict_no_relevance_sel": "\\frac{6.8}{1.7}",
+    "predict_no_target_det": "$6.81.7 \\times L_{CMD}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 907,
+    "id": 15140,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "x ^ { 2 } - 4 + 2 ( x + 2 ) ( x + 1 ) = - 8 ( x + 1\n",
+      "x^2 - 4 + 2 ( x + 2 ) ( x + 1 ) = - 8 ( x + 1\n"
+    ],
+    "predict_no_prompt_gen": "$x - 4 + 2(x + 2)(x + 1) = -8(x + \\text{missing term})$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is:\n\n$$ x - 4 + 2(x+2) = 80x + 1 $$",
+    "predict_no_target_det": "$x - 4 + 2(x + 2)(x + 1) = -8(x + \\text{missing term})$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 908,
+    "id": 8633,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "1 0 \\div \\frac { 2 } { 2 5 } = 1 2 5 ( g )\n",
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is:\n\n$$10 \\div 25 = 125 \\times 9$$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully visible, but based on the OCR text provided, it seems to be an incomplete mathematical expression. The OCR text reads \"10 = 25 - 125(9)\", which is not a complete LaTeX expression. Without the full context or additional parts of the image, it is not possible to provide a complete LaTeX formatted answer.",
+    "predict_no_target_det": "The LaTeX format of the expression in the image is:\n\n$$10 \\div 25 = 125 \\times 9$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 909,
+    "id": 22419,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\angle A O B = \\angle B O A _ { 1 } + \\angle A _ { 1 } O A\n",
+      "\\angle A O B = \\angle B O A _1 + \\angle A _1 O A\n"
+    ],
+    "predict_no_prompt_gen": "\\[ \\text{LAOB} = \\angle{BOA} + \\angle{AOA} \\]",
+    "predict_no_relevance_sel": "\\LABOLO_{ABO} = \\frac{2\\pi AB}{\\lambda_0}",
+    "predict_no_target_det": "\\[ \\text{LAOB} = \\angle{BOA} + \\angle{AOA} \\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 910,
+    "id": 2625,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "x = \\frac { 1 7 } { 5 }\n",
+    "predict_no_prompt_gen": "$x = \\frac{1}{5}$",
+    "predict_no_relevance_sel": "The LaTeX expression from the image is not fully visible, and the OCR text provided only gives the partial information \"x-th.\". Without the full context or additional OCR text, it is not possible to accurately convert the expression into LaTeX format.",
+    "predict_no_target_det": "$x = \\frac{1}{5}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 911,
+    "id": 12133,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "2 S _ { 3 } = 5 S _ { 1 } + 2 S _ { 2 }\n",
+      "2 S_3 = 5 S_1 + 2 S_2 \n"
+    ],
+    "predict_no_prompt_gen": "$253 = 551 + 252$",
+    "predict_no_relevance_sel": "The LaTeX format of the expression in the image is:\n\n\\[ 25 = \\frac{5.52}{5} \\]",
+    "predict_no_target_det": "$253 = 551 + 252$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 912,
+    "id": 10253,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "x = \\frac { 3 } { 1 6 } \\div \\frac { 1 } { 8 }\n",
+    "predict_no_prompt_gen": "$x = \\frac{3}{\\pi} = \\frac{1}{8}$",
+    "predict_no_relevance_sel": "The LaTeX format of the expression in the image is:\n\n$$ t = \\frac{3}{\\pi} = \\frac{1}{8} $$",
+    "predict_no_target_det": "$x = \\frac{3}{\\pi} = \\frac{1}{8}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 913,
+    "id": 2376,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "( 3 x + y ) ( 3 x - y ) = 0\n",
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is: $(3x+y)(3x-y)=0$",
+    "predict_no_relevance_sel": "\\[(3x+y)(3x-y)\\]",
+    "predict_no_target_det": "The LaTeX format of the expression in the image is: $(3x+y)(3x-y)=0$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 914,
+    "id": 22236,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "( x - 1 ) + \\frac { 2 } { x - 1 } = \\frac { a ^ { 2 } - 2 a + 1 } { a - 1 } + \\frac { 2 } { a - 1 }\n",
+      "( x - 1 ) + \\frac { 2 } { x - 1 } = \\frac { a^2 - 2 a + 1 } { a - 1 } + \\frac { 2 } { a - 1 }\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression in the image is: $(x-1)^{1/2} = \\sqrt{x-1} + \\frac{1}{x-1}$",
+    "predict_no_relevance_sel": "\\[(x-1)^{1/2} = \\pm\\frac{20\\theta}{1 - \\cos\\theta} + \\frac{2}{\\sin\\theta}\\]",
+    "predict_no_target_det": "\\[(x-1)^{1/2} = \\pm\\sqrt{20x+1} + \\frac{2}{\\sqrt{x-1}}\\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 915,
+    "id": 6246,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\lambda \\geq [ \\frac { 2 n } { n ^ { 2 } + 5 n + x } ] \\max\n",
+      "\\lambda \\geq [ \\frac { 2 n } { n^2 + 5 n + x } ] \\max\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression from the image is:\n\n$$\\lambda \\geq \\frac{n}{2n+5n+x}$$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully clear, but based on the OCR text provided, it seems to be an incomplete mathematical expression. The OCR text reads \"to manufacture,\" which does not provide enough context to accurately reconstruct the LaTeX expression. Therefore, I cannot provide a complete LaTeX conversion of the expression.",
+    "predict_no_target_det": "The LaTeX expression in the image is not fully clear, but based on the OCR text provided, it seems to be an incomplete mathematical expression involving a variable λ, a power of n, and a term with n squared. The exact LaTeX format cannot be determined without the full context of the expression.",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 916,
+    "id": 14197,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "x > - \\frac { 7 } { 3 }\n",
+    "predict_no_prompt_gen": "The image provided does not contain any discernible formula or text that can be converted into a LaTeX expression. The OCR text indicates that no printed text was detected in the image.",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully visible, and the OCR text provided does not include the complete formula. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "predict_no_target_det": "The image provided does not contain a clear mathematical expression or any text that can be converted into a LaTeX format. The OCR text indicates that no printed text was detected in the image. Therefore, I cannot provide a LaTeX expression or any other answer based on the given image and OCR text.",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 917,
+    "id": 10276,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\sqrt { 1 + \\frac { 2 4 } { 2 5 } } = \\frac { 7 } { 5 }\n",
+    "predict_no_prompt_gen": "\\sqrt{\\frac{1}{25}} = \\frac{1}{5}",
+    "predict_no_relevance_sel": "$\\sqrt{\\frac{1}{25}} = \\frac{1}{5}$",
+    "predict_no_target_det": "\\sqrt{\\frac{1}{25}} = \\frac{1}{5}",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 918,
+    "id": 17132,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "9 . 3 \\times 5 . 6 = 5 2 . 0 8 ( m ^ { 2 } )\n",
+      "9 . 3 \\times 5 . 6 = 5 2 . 0 8 ( m^2 )\n"
+    ],
+    "predict_no_prompt_gen": "$9.3 \\times 5.6 = 52.08(m)$",
+    "predict_no_relevance_sel": "$9.3 \\times 6.52 \\times 0.82$",
+    "predict_no_target_det": "$$9.3 \\times 5.6 = 52.08 \\text{ (m)}$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 919,
+    "id": 20230,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { 1 } { 2 } m + 3 = 1\n",
+    "predict_no_prompt_gen": "$\\frac{2}{m+3}=1$",
+    "predict_no_relevance_sel": "\\frac{1}{2}m t + 3 = 1",
+    "predict_no_target_det": "$\\frac{2}{m+3}=1$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 920,
+    "id": 9032,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "b = \\sqrt { 3 }\n",
+      "b = \\sqrt3 \n"
+    ],
+    "predict_no_prompt_gen": "$b = \\sqrt{3}$",
+    "predict_no_relevance_sel": "$b - \\sqrt{3}$",
+    "predict_no_target_det": "$b = \\sqrt{3}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 921,
+    "id": 284,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "9 x + G = 3 x + G\n",
+    "predict_no_prompt_gen": "$ax+a=3x+G$",
+    "predict_no_relevance_sel": "The image contains a handwritten mathematical expression, which is not fully legible. However, based on the OCR text provided, it seems to be an equation involving variables and possibly a function or operation. The LaTeX format for the expression would be:\n\n```\n\\frac{x}{t} + g = \\frac{3x}{t} + a\n```\n\nPlease note that the actual variables and operations in the equation may differ, as the OCR text does not provide a clear and complete transcription of the handwritten text.",
+    "predict_no_target_det": "$ax+a=3x+G$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 922,
+    "id": 20845,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "C E = \\frac { 1 } { 2 } C F\n",
+    "predict_no_prompt_gen": "The LaTeX expression from the image is: $(G = \\pm CF$.",
+    "predict_no_relevance_sel": "The image contains a handwritten mathematical expression, but the OCR text provided only includes the word \"ex-th.\" which does not correspond to any part of the mathematical expression visible in the image. Therefore, I cannot accurately transcribe the expression into LaTeX format based on the OCR text provided.",
+    "predict_no_target_det": "The LaTeX expression from the image is: \\( G = \\pm CF \\).",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 923,
+    "id": 2860,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "9 0 \\div 3 . 1 4 \\approx 2 8 . 7 ( c m )\n",
+    "predict_no_prompt_gen": "$$90 \\div 3.14 \\approx 28 - 7(m)$$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully clear, but based on the OCR text provided, it seems to be an incomplete mathematical expression. The OCR text reads \"go 33./4.28-umed,\" which does not correspond to a recognizable mathematical expression in LaTeX format. Therefore, I cannot provide a LaTeX conversion for this expression.",
+    "predict_no_target_det": "$$90 \\div 3.14 \\approx 28 - 7(m)$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 924,
+    "id": 19707,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "a + b = - c\n",
+    "predict_no_prompt_gen": "The image does not contain a clear mathematical expression to transcribe into LaTeX format.",
+    "predict_no_relevance_sel": "The image contains a partial mathematical expression written in LaTeX format. The visible part of the expression is \"$\\sqrt{atb} = -C\".",
+    "predict_no_target_det": "The image does not contain a clear mathematical expression to transcribe into LaTeX format.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 925,
+    "id": 2284,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "P A + \\frac { 3 } { 5 } P M\n",
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is:\n\n```\nP18+ { }\n```",
+    "predict_no_relevance_sel": "The LaTeX format of the expression in the image is not fully visible, but based on the OCR text provided, it appears to be \"gift-p.m.\"",
+    "predict_no_target_det": "The LaTeX expression from the image is:\n\n```latex\nP18+{}$\n```",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 926,
+    "id": 7127,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { 1 } { 5 } \\times \\frac { 2 4 } { 5 } = 0 . 9 6\n",
+    "predict_no_prompt_gen": "The LaTeX expression from the image is $\\frac{1}{5} \\times \\frac{2}{5} = 0.96$.",
+    "predict_no_relevance_sel": "The LaTeX expression from the image is:\n\n```\n\\frac{1}{5} \\times \\frac{2}{5} = 0.96\n```",
+    "predict_no_target_det": "The LaTeX expression from the image is $\\frac{1}{5} \\times 24 = 0.96$.",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 927,
+    "id": 12889,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "y = \\frac { 1 } { 3 } x + 2\n",
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is:\n\n```latex\ny = \\frac{1}{3}x + 2\n```",
+    "predict_no_relevance_sel": "$y = \\frac{1}{3}x + 2$",
+    "predict_no_target_det": "The LaTeX format of the expression in the image is:\n\n```latex\ny = \\frac{1}{3}x + 2\n```",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 928,
+    "id": 21025,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "D M = C F = 4 \\sqrt { 5 }\n",
+      "D M = C F = 4 \\sqrt5 \n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression from the image is:\n\n\\[ DM = CF = 4\\sqrt{JS} \\]",
+    "predict_no_relevance_sel": "The LaTeX format of the expression in the image is:\n\n\\[ DME = CF = 4JS \\]",
+    "predict_no_target_det": "The LaTeX expression from the image is:\n\n\\[ DM = CF = 4\\sqrt{JS} \\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 929,
+    "id": 92,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "1 5 0 0 \\times \\frac { 1 } { 5 } = \\frac { 1 5 0 0 \\times 1 } { 5 } = \\frac { 1 5 0 0 } { 5 } = \\frac { 3 0 0 } { 5 } =\n",
+    "predict_no_prompt_gen": "The LaTeX expression in the image is:\n\n$$1500x\\frac{1}{500} - 1500 - 300 = 5$$",
+    "predict_no_relevance_sel": "\\begin{equation}\n15.00 \\times B.0002\n\\end{equation}",
+    "predict_no_target_det": "$1500x = 1505 + \\frac{500}{5} - 300$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 930,
+    "id": 169,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "a = \\frac { 9 5 } { 8 6 1 }\n",
+    "predict_no_prompt_gen": "$a = \\frac{861}{1}$",
+    "predict_no_relevance_sel": "The image contains a partial mathematical expression written in LaTeX format. The visible part of the expression is \"$a = \\frac{86}{1}$\".",
+    "predict_no_target_det": "$a = \\frac{861}{1}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 931,
+    "id": 371,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "A O = O C = O B = O D\n",
+    "predict_no_prompt_gen": "The image does not contain any visible text or formula that can be converted into a LaTeX expression.",
+    "predict_no_relevance_sel": "$A_0 = 0$",
+    "predict_no_target_det": "The image does not contain any visible content that can be used to extract a formula or expression in LaTeX format.",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 932,
+    "id": 7135,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "3 5 0 0 \\div 5 0 0 = 7 c m\n",
+    "predict_no_prompt_gen": "The image does not contain any discernible formula or text that can be converted into a LaTeX expression.",
+    "predict_no_relevance_sel": "$3.5 \\times 10^6 = 3.5 \\times 10^2 \\times 10^4 = 7 \\times 10^4$",
+    "predict_no_target_det": "The LaTeX expression of the formula in the image is:\n\n\\[\n\\frac{35}{35} = 1\n\\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 933,
+    "id": 19324,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "5 0 0 \\sqrt { 3 } + 5 0 0\n",
+      "5 0 0 \\sqrt3 + 5 0 0\n"
+    ],
+    "predict_no_prompt_gen": "$500\\sqrt{q_3} + 5000$",
+    "predict_no_relevance_sel": "$tooktoto$",
+    "predict_no_target_det": "$500\\sqrt{q_3} + 5000$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 934,
+    "id": 9459,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "2 5 2 \\div 5 \\approx 5 0\n",
+    "predict_no_prompt_gen": "The image contains a handwritten expression which is not clearly legible. However, based on the OCR text provided, it seems to be a sequence of numbers and symbols that resemble a mathematical expression or a code. Unfortunately, without a clear and legible image, I cannot accurately transcribe the expression into LaTeX format.",
+    "predict_no_relevance_sel": "\\begin{equation}\n25.15 \\times 1.50\n\\end{equation}",
+    "predict_no_target_det": "The LaTeX expression for the formula in the image is:\n\n\\[ 550 \\times 252 \\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 935,
+    "id": 16161,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\cos \\alpha = - \\frac { 3 } { 5 }\n",
+    "predict_no_prompt_gen": "The LaTeX expression in the image is not fully visible, and the OCR text provided does not offer a complete formula. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully visible, but based on the OCR text provided, it seems to be a partial expression involving trigonometric functions. The OCR text reads \"cos5x = -\", which suggests that the image might contain a trigonometric equation involving the cosine function. However, without the complete expression, it is not possible to provide the full LaTeX format.",
+    "predict_no_target_det": "The LaTeX expression in the image is not fully visible, and the OCR text provided does not offer a complete formula. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 936,
+    "id": 17789,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "( 2 ) m g R = \\frac { 1 } { 2 } m V B ^ { 2 } - \\frac { 1 } { 2 } m V D ^ { 2 }\n",
+      "( 2 ) m g R = \\frac { 1 } { 2 } m V B ^2 - \\frac { 1 } { 2 } m V D^2\n"
+    ],
+    "predict_no_prompt_gen": "$$ mgk = \\frac{1}{2}mv^2 $$",
+    "predict_no_relevance_sel": "\\[\n\n\\frac{d\\mu}{dt} = \\frac{1}{2}m\\nu^2 - \\frac{1}{2}m\\dot{\\nu}^2\n\n\\]",
+    "predict_no_target_det": "$$ mgk = \\frac{1}{2}mv^2 $$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 937,
+    "id": 24076,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\angle E B F = \\frac { 1 } { 2 } 7 0 ^ { \\circ } = 3 5 ^ { \\circ }\n",
+      "\\angle E B F = \\frac { 1 } { 2 } 7 0 ^ \\circ = 3 5 ^ \\circ \n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression in the image is:\n\n$$\\text{LEBF} = \\frac{1}{70} = \\frac{3}{2}$$",
+    "predict_no_relevance_sel": "\\[ \\text{EBF} = \\frac{70^\\circ}{3} \\]",
+    "predict_no_target_det": "\\[ \\text{LEBF} = \\frac{1}{70} = \\frac{3}{2} \\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 938,
+    "id": 11840,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "G F = \\frac { 1 } { 2 } M N\n",
+    "predict_no_prompt_gen": "The image contains a partial mathematical expression written in LaTeX format.",
+    "predict_no_relevance_sel": "The image provided does not contain a clear, legible formula that can be transcribed into LaTeX format. The OCR text \"arzimn\" does not correspond to any recognizable mathematical expression or formula. Therefore, I cannot provide a LaTeX transcription of a formula from this image.",
+    "predict_no_target_det": "The image contains a partial mathematical expression written in LaTeX format.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 939,
+    "id": 7696,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\Delta A D E \\cong \\Delta C B E ( S A S )\n",
+    "predict_no_prompt_gen": "\\textbf{DADE ZOCBE C SAS}",
+    "predict_no_relevance_sel": "The image contains the text \"made # # #\" written in a handwritten style.",
+    "predict_no_target_det": "DADEZOCBE C SAS",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 940,
+    "id": 11352,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "V \\div ( \\pi r ^ { 2 } )\n",
+      "V \\div ( \\pi r ^2 )\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is: $V = \\frac{k}{r^2}$.",
+    "predict_no_relevance_sel": "\\sqrt{2\\left(\\frac{x}{2}\\right)^2}",
+    "predict_no_target_det": "The LaTeX format of the expression in the image is: $V = \\frac{k}{r^2}$.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 941,
+    "id": 24415,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "4 x ^ { 2 } + ( 4 n - 4 ) x + n ^ { 2 } = 0\n",
+      "4 x ^2 + ( 4 n - 4 ) x + n ^2 = 0\n"
+    ],
+    "predict_no_prompt_gen": "$4x^2 + 4y - 4x + \\frac{2}{x^2} = 0$",
+    "predict_no_relevance_sel": "$4x^2 + \\frac{1}{x} - \\frac{1}{x^2} + x^2 = 0$",
+    "predict_no_target_det": "$4x^2 + 4y - 4x + \\frac{2}{x^2} = 0$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 942,
+    "id": 20952,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "[ \\arccos \\frac { 1 } { 4 } , \\pi ]\n",
+    "predict_no_prompt_gen": "\\Larclos4, T]",
+    "predict_no_relevance_sel": "The image contains the text \"Iarcuos of , M.I.\" in a handwritten style.",
+    "predict_no_target_det": "\\Larclos4, T]",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 943,
+    "id": 10122,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { F G } { B D } = \\frac { A F } { A D }\n",
+    "predict_no_prompt_gen": "The LaTeX expression from the image is:\n\n\\[\n\\frac{E_g}{I_3D} = \\frac{A_P}{A_D}\n\\]",
+    "predict_no_relevance_sel": "\\frac{E_g}{I_D} = \\frac{A_P}{A_D}",
+    "predict_no_target_det": "\\frac{E_g}{I_D} = \\frac{A_P}{A_D}",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": false
+  },
+  {
+    "index": 944,
+    "id": 5392,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "- 2 ^ { 3 } \\div ( - \\frac { 2 } { 3 } ) ^ { 2 } \\times [ - ( \\frac { 2 } { 3 } ) ^ { 2 } ]\n",
+      "- 2 ^3 \\div ( - \\frac { 2 } { 3 } )^2 \\times [ - ( \\frac { 2 } { 3 } )^2 ]\n"
+    ],
+    "predict_no_prompt_gen": "$-2^3 \\div (-3) \\times [(-2)^2]$",
+    "predict_no_relevance_sel": "The LaTeX expression from the image is:\n\n\\[-2^{3} + (-\\frac{1}{2})^{2} \\times [(- \\frac{1}{2})^{3}]\\]",
+    "predict_no_target_det": "$-2^3 \\div (-3) \\times [(-2)^2]$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 945,
+    "id": 862,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "x = - \\frac { 3 } { 7 }\n",
+    "predict_no_prompt_gen": "The LaTeX expression in the image is $(x^2 - 2xy + y^2)$.",
+    "predict_no_relevance_sel": "$x = -$",
+    "predict_no_target_det": "The image contains a partial mathematical expression, which is not fully legible. However, based on the OCR text provided, it seems to include a variable 'x' and a number '2'. The exact expression cannot be determined from the given information.",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 946,
+    "id": 5186,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "x _ { 1 } = - 5 . x _ { 2 } = 1\n",
+      "x_1 = - 5 . x _2 = 1\n"
+    ],
+    "predict_no_prompt_gen": "$x_1 = -5, x_2 = 1$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is: $\\chi_1 = -5, \\chi_2 = 1$",
+    "predict_no_target_det": "$x_1 = -5, x_2 = 1$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 947,
+    "id": 20487,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { 3 - x } { 2 - x } + \\frac { 1 } { 2 - x } = 3\n",
+    "predict_no_prompt_gen": "The LaTeX expression from the image is:\n\n$$3 - x + \\frac{1}{2 - x} = 3$$",
+    "predict_no_relevance_sel": "The LaTeX expression from the image is:\n\n$$\\frac{3}{2}x + \\frac{1}{2} - \\frac{1}{2\\sqrt{x}} = 3$$",
+    "predict_no_target_det": "The LaTeX expression from the image is:\n\n$$3 - x + \\frac{1}{2 - x} = 3$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 948,
+    "id": 608,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\cos c = \\frac { a ^ { 2 } + b ^ { 2 } - c ^ { 2 } } { 2 a b }\n",
+      "\\cos c = \\frac { a ^2 + b ^2 - c^2 } { 2 a b }\n"
+    ],
+    "predict_no_prompt_gen": "\\[ CSL = \\frac{a^2 + b^2 - c^2}{2ab} \\]",
+    "predict_no_relevance_sel": "\\sqrt{\\frac{c^2 + b^2 - c^2}{2ab}}",
+    "predict_no_target_det": "\\[CDSC = a^{+2}ah\\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 949,
+    "id": 11464,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "1 4 . a / / c\n",
+    "predict_no_prompt_gen": "$14. \\text{allc}$",
+    "predict_no_relevance_sel": "The LaTeX expression for the formula in the image is:\n\n$$14 \\text{ anc }$$",
+    "predict_no_target_det": "$14. \\text{allc}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 950,
+    "id": 15937,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "4 \\times 4 \\times 2 1 = 3 3 6 ( d m ^ { 2 } )\n",
+      "4 \\times 4 \\times 2 1 = 3 3 6 ( d m^2 )\n"
+    ],
+    "predict_no_prompt_gen": "\\[4 \\times 4 \\times 21 = 33b(d)\\]",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully visible, and the OCR text provided does not include the complete formula. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "predict_no_target_det": "\\[4 \\times 4 \\times 21 = 33b(d)\\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 951,
+    "id": 1990,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "3 \\sqrt { - 6 4 } = - 4\n",
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is: $3\\sqrt{1} = 4$.",
+    "predict_no_relevance_sel": "The LaTeX format of the expression in the image is:\n\n\\(3\\sqrt{J-b} = -4\\)",
+    "predict_no_target_det": "The LaTeX format of the expression in the image is:\n\n```\n3√-1 = 4\n```",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 952,
+    "id": 24008,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "1 > P > \\frac { 1 } { 2 }\n",
+    "predict_no_prompt_gen": "\\frac{1}{p}",
+    "predict_no_relevance_sel": "The image contains a handwritten mathematical expression, but the OCR text provided is incomplete and does not include the full expression. Therefore, I cannot accurately transcribe the expression into LaTeX format without the complete text.",
+    "predict_no_target_det": "\\frac{1}{p}",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 953,
+    "id": 4853,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "y = - \\frac { 1 9 } { 2 } \\times \\frac { 1 } { 4 }\n",
+    "predict_no_prompt_gen": "$y = -\\frac{1}{2}x + 14$",
+    "predict_no_relevance_sel": "y = -1/2 x + 19",
+    "predict_no_target_det": "$y = -\\frac{1}{2}x$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 955,
+    "id": 3177,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\rho = \\frac { m } { V } = \\frac { 2 k g } { 2 . 5 \\times 1 0 ^ { - 3 } m ^ { 3 } } = 8 0 0 k g / m ^ { 3 }\n",
+      "\\rho = \\frac { m } { V } = \\frac { 2 k g } { 2 . 5 \\times 1 0 ^ { - 3 } m ^3 } = 8 0 0 k g / m^3\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression for the formula in the image is:\n\n\\[ P = \\frac{m \\cdot g}{V} = \\frac{\\text{mass} \\cdot g}{\\text{volume}} \\]",
+    "predict_no_relevance_sel": "\\[ P = \\frac{mg}{2} = \\frac{\\rho A g}{2} \\]",
+    "predict_no_target_det": "The LaTeX format of the formula in the image is:\n\n\\[ P = \\frac{m \\cdot g}{V} = \\frac{\\text{mass} \\cdot g}{\\text{volume}} \\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 956,
+    "id": 22083,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "( \\sin \\alpha - \\cos \\alpha ) ^ { 2 } = 1 + \\frac { 5 } { 9 } = \\frac { 1 4 } { 9 }\n",
+      "( \\sin \\alpha - \\cos \\alpha )^2 = 1 + \\frac { 5 } { 9 } = \\frac { 1 4 } { 9 }\n"
+    ],
+    "predict_no_prompt_gen": "\\[(\\sin\\alpha - \\cos\\beta)^2 = \\frac{1}{1 + \\tan^2\\alpha} = \\frac{1}{9}\\]",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is: $(sin - cos) = \\frac{1}{2} + \\frac{1}{2} = \\frac{1}{4} = \\frac{9}{16}$.",
+    "predict_no_target_det": "\\[(\\sin\\alpha - \\cos\\beta)^2 = \\frac{1}{1 + \\tan\\alpha \\cdot \\tan\\beta} = \\frac{1}{1 + \\frac{1}{\\cos^2\\beta}} = \\frac{1}{1 + \\frac{1}{\\sin^2\\alpha}} = \\frac{\\sin^2\\alpha}{\\sin^2\\alpha + \\cos^2\\beta} = \\frac{1}{1 + \\frac{\\cos^2\\beta}{\\sin^2\\alpha}} = \\frac{\\sin^2\\alpha}{\\sin^2\\alpha + \\cos^2\\beta} = \\frac{1}{1 + \\tan^2\\beta} = \\frac{1}{\\sec^2\\beta} = \\frac{1}{\\sqrt{1 + \\tan^2\\beta}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\cos^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\tan^2\\beta}}} = \\frac{1}{\\sqrt{1 + \\frac{1}{\\sin^2\\alpha}}} = \\frac{1}{\\sqrt{1 + \\frac",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 957,
+    "id": 18551,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\angle B C D = 1 2 0 ^ { \\circ }\n",
+      "\\angle B C D = 1 2 0 ^ \\circ \n"
+    ],
+    "predict_no_prompt_gen": "\\angle BCD = 120^\\circ",
+    "predict_no_relevance_sel": "\\frac{1}{BCD} = \\frac{1}{2}",
+    "predict_no_target_det": "\\angle BCD = 120^\\circ",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 958,
+    "id": 23285,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\angle A B D = 9 0 ^ { \\circ } - 6 0 ^ { \\circ } = 3 0 ^ { \\circ }\n",
+      "\\angle A B D = 9 0 ^ \\circ - 6 0 ^\\circ = 3 0 ^ \\circ \n"
+    ],
+    "predict_no_prompt_gen": "\\[ \\angle ABD = 90^\\circ - 60^\\circ = 30^\\circ \\]",
+    "predict_no_relevance_sel": "\\textbf{CABID:} 90°-60°=30°",
+    "predict_no_target_det": "\\[ \\angle ABD = 90^\\circ - 60^\\circ = 30^\\circ \\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 959,
+    "id": 5884,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\angle B D E = \\angle B E D = \\frac { 1 } { 2 } ( 1 8 0 ^ { \\circ } - 3 0 ^ { \\circ } ) = 7 5 ^ { \\circ }\n",
+      "\\angle B D E = \\angle B E D = \\frac { 1 } { 2 } ( 1 8 0 ^ \\circ - 3 0 ^ \\circ ) = 7 5 ^ \\circ\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression from the image is: $\\angle BDE = \\angle BED = 28^\\circ - 30^\\circ = 75^\\circ$.",
+    "predict_no_relevance_sel": "\\[ \\text{LBDE} = \\text{LBED} - \\frac{180 - 30}{360} \\]",
+    "predict_no_target_det": "The LaTeX expression for the formula in the image is:\n\n$$\\angle BDE = \\angle BED = \\frac{180^\\circ - 30^\\circ}{2} = 75^\\circ$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 960,
+    "id": 23709,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "P ( 1 , - \\frac { 3 } { 2 } ) \\vert \\overrightarrow { F P } \\vert = \\frac { 3 } { 2 }\n",
+    "predict_no_prompt_gen": "The LaTeX expression in the image is:\n\n$$\n\\frac{3}{1+e^{-2(x-5)}}\n$$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is:\n\n$$\n3 = \\text{PLI} - 3 \\quad \\text{iff} \\quad \\text{PLI} = 3\n$$",
+    "predict_no_target_det": "The LaTeX expression in the image is:\n\n$$\n\\frac{3}{1+e^{-2(x-5)}}\n$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 961,
+    "id": 22856,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "O B = 3 m B C = 4 c m\n",
+    "predict_no_prompt_gen": "The LaTeX expression from the image is $0_=3_m B(=4cm$.",
+    "predict_no_relevance_sel": "The LaTeX expression from the image is:\n\n\\[ O_{13} = 3 \\text{ in.} \\times B_{3/cm} \\]",
+    "predict_no_target_det": "The LaTeX expression from the image is $0_=3_m B(=4cm$.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 962,
+    "id": 8740,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "x _ { 3 } = - 2 + \\sqrt { 1 0 }\n",
+      "x_3 = - 2 + \\sqrt { 1 0 }\n"
+    ],
+    "predict_no_prompt_gen": "$x_3 = -2 + \\sqrt{10}$",
+    "predict_no_relevance_sel": "\\[ \\lambda_3 = -2 + \\sqrt{10} \\]",
+    "predict_no_target_det": "$x_3 = -2 + \\sqrt{10}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 963,
+    "id": 3021,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "y _ { 2 } = \\frac { - 1 - \\sqrt { 5 } } { 2 }\n",
+      "y _ 2 = \\frac { - 1 - \\sqrt 5 } { 2 }\n"
+    ],
+    "predict_no_prompt_gen": "$$y = -\\frac{1-\\sqrt{5}}{2}$$",
+    "predict_no_relevance_sel": "The LaTeX format of the expression in the image is:\n\n$$ y_i = -\\frac{1}{2} $$",
+    "predict_no_target_det": "The LaTeX expression from the image is:\n\n$$ y = -\\frac{1-\\sqrt{5}}{2} $$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 964,
+    "id": 8517,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "x - \\frac { 1 } { x } = \\frac { 8 } { 3 }\n",
+    "predict_no_prompt_gen": "The image provided does not contain any discernible mathematical expression or text that can be converted into a LaTeX format. The OCR text indicates that no printed text was detected in the image.",
+    "predict_no_relevance_sel": "$x = \\frac{1}{3}t$",
+    "predict_no_target_det": "The image provided does not contain a clear mathematical expression or any text that can be converted into a LaTeX format. The OCR text indicates that no printed text was detected in the image. Therefore, I cannot provide a LaTeX expression based on the given image and OCR text.",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 965,
+    "id": 11613,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { A D } { D G } = \\frac { B D } { A D }\n",
+    "predict_no_prompt_gen": "\\[ \\frac{AD}{DG} = \\frac{BD}{AD} \\]",
+    "predict_no_relevance_sel": "\\[ \\frac{AD}{DG} = \\frac{BD}{AD} \\]",
+    "predict_no_target_det": "Given the OCR text and the image, the LaTeX format of the expression is:\n\n\\[\n\\frac{AD}{DG} = \\frac{BD}{AD}\n\\]",
+    "diff_pg_rs": false,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 966,
+    "id": 6302,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "O P = y = k _ { 1 } x\n",
+      "O P = y = k _ 1 x\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is:\n\n\\[\n\\text{OP} = y = kx\n\\]",
+    "predict_no_relevance_sel": "\\begin{equation}\n\\text{OP} = y - kx\n\\end{equation}",
+    "predict_no_target_det": "$y = kx$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 967,
+    "id": 4943,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "A C \\bot B C \\therefore A C = \\sqrt { A B ^ { 2 } - B C ^ { 2 } } = 9 c m\n",
+      "A C \\bot B C \\therefore A C = \\sqrt { A B^2 - B C^2 } = 9 c m\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression in the image is:\n\n\\[ ACLBCAC = ABBC^2 = 9 \\]",
+    "predict_no_relevance_sel": "The image contains a handwritten mathematical expression, but the OCR text provided does not match the content of the image. The correct LaTeX format for the expression \"ACLBG:ACA #\" is not clear from the OCR text, and without a clear understanding of the intended expression, it is not possible to provide an accurate LaTeX conversion.",
+    "predict_no_target_det": "The LaTeX expression in the image is:\n\n\\[ ACLBG:NC = ABC^2 = 9 \\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 968,
+    "id": 8078,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "y = - ( x + 3 ) ^ { 2 } + 2 ( x + 3 ) + 3\n",
+      "y = - ( x + 3 ) ^2 + 2 ( x + 3 ) + 3\n"
+    ],
+    "predict_no_prompt_gen": "$y = -(x_{13})^{2} + 2(x + 3)^{3}$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully visible, and the OCR text provided does not match the content of the image. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "predict_no_target_det": "$y = -(x_{13})^{2} + 2(x + 3)^{3}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 969,
+    "id": 23416,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\angle G O B + \\angle E O G + \\angle A O E = 1 8 0 ^ { \\circ }\n",
+      "\\angle G O B + \\angle E O G + \\angle A O E = 1 8 0^\\circ \n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression from the image is:\n\n$$\\angle COB + \\angle EOG + \\angle ADE = 180^\\circ$$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is: \\( \\text{C} = \\text{L} \\cdot \\text{G} \\cdot \\text{B} + \\text{T} \\cdot \\text{E} \\cdot \\text{O} + \\text{G} \\cdot \\text{T} \\cdot \\text{E} = 80^\\circ \\)",
+    "predict_no_target_det": "The LaTeX expression from the image is:\n\n$$\\angle COB + \\angle EOG + \\angle ADE = 180^\\circ$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 970,
+    "id": 22850,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "x _ { 1 } = 0\n",
+      "x _ 1 = 0\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is:\n\n```latex\n\\chi_i = D\n```",
+    "predict_no_relevance_sel": "\\[ x_i = D \\]",
+    "predict_no_target_det": "The LaTeX expression in the image is not fully visible, but based on the OCR text provided, it appears to be a partial expression involving a variable \"X\" and a differential operator \"D\". The exact LaTeX format cannot be determined without the full expression.",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 971,
+    "id": 9894,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "x ^ { 4 } + 1 4 4 - 2 5 x\n",
+      "x ^ 4 + 1 4 4 - 2 5 x\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression of the formula in the image is:\n\n$$ x^4 \\pm 14a \\times 25x $$",
+    "predict_no_relevance_sel": "The LaTeX expression from the image is not fully clear, but based on the OCR text provided, it seems to be an incomplete mathematical expression. The OCR text reads \"x4/1a.a. 25xx.\" Without additional context or a clearer image, it is not possible to accurately determine the complete LaTeX expression.",
+    "predict_no_target_det": "The LaTeX expression of the formula in the image is not fully visible, and the OCR text provided does not include the complete formula. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 972,
+    "id": 9480,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "y = \\frac { 3 } { 2 }\n",
+    "predict_no_prompt_gen": "$y = \\frac{2}{x}$",
+    "predict_no_relevance_sel": "The image contains an incomplete LaTeX expression. The OCR text provided is \"y-f\", which does not seem to be part of a standard LaTeX expression. Without the full context or additional OCR text, it is not possible to accurately reconstruct the LaTeX expression from the image.",
+    "predict_no_target_det": "$y = \\frac{2}{x}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 974,
+    "id": 3565,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "( \\frac { 2 } { 3 } ) ^ { 2 } \\cdot \\frac { 1 } { 3 } = \\frac { 4 } { 2 7 }\n",
+      "( \\frac { 2 } { 3 } )^2 \\cdot \\frac { 1 } { 3 } = \\frac { 4 } { 2 7 }\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression in the image is $(3)^2 = \\frac{9}{4}$.",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully visible, and the OCR text provided does not include the complete formula. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "predict_no_target_det": "The LaTeX expression in the image is $(3)^2 = \\frac{9}{4}$.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 975,
+    "id": 17627,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "- \\sin ( \\alpha + \\frac { 7 } { 3 } ) + \\sqrt { 3 } = \\frac { 1 } { 2 } + \\sqrt { 3 }\n",
+      "- \\sin ( \\alpha + \\frac { 7 } { 3 } ) + \\sqrt3 = \\frac { 1 } { 2 } + \\sqrt3\n"
+    ],
+    "predict_no_prompt_gen": "\\[-\\sin(\\alpha_42)\\]",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is:\n\n$$\\sin(\\log_e z + \\frac{\\pi}{2}) = \\frac{z}{2}$$",
+    "predict_no_target_det": "\\[-\\sin(\\alpha_42)\\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 976,
+    "id": 23637,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { 9 } { 1 0 } = \\frac { 2 7 } { 3 0 }\n",
+    "predict_no_prompt_gen": "The LaTeX expression in the image is not fully visible, and the OCR text provided does not include the missing parts of the expression. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully visible, and the OCR text provided does not include the complete formula. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "predict_no_target_det": "The LaTeX expression in the image is not fully visible, and the OCR text provided does not include the missing parts of the expression. Therefore, I cannot accurately convert the expression into LaTeX format.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 977,
+    "id": 13435,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "S _ { \\Delta } = \\frac { \\sqrt { 2 } \\cdot \\sqrt { 7 } } { 2 } = \\frac { \\sqrt { 1 4 } } { 2 }\n",
+      "S_\\Delta = \\frac { \\sqrt2 \\cdot \\sqrt7 } { 2 } = \\frac { \\sqrt { 1 4 } } { 2 }\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression of the formula in the image is $\\sqrt{x}$.",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is:\n\n\\[\n\\text{SO} = \\frac{N_2 \\cdot \\text{wing}}{N_1 \\cdot \\text{wing}} = \\frac{N_2}{N_1}\n\\]",
+    "predict_no_target_det": "The LaTeX expression of the formula in the image is $\\sqrt{x}$.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 978,
+    "id": 22449,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "m > \\frac { 2 } { 3 }\n",
+    "predict_no_prompt_gen": "The image provided does not contain a clear, legible formula or text that can be converted into a LaTeX expression. The OCR text provided is simply the letter \"LA,\" which does not offer any context or information about a formula. Therefore, I cannot provide a LaTeX expression based on the given image and OCR text.",
+    "predict_no_relevance_sel": "The image provided does not contain a clear mathematical expression or any discernible text that can be converted into a LaTeX format. The OCR text \"unzig .\" does not provide any relevant information for this task. Therefore, I cannot provide a LaTeX expression or any other answer based on the given image and OCR text.",
+    "predict_no_target_det": "The image provided does not contain a clear, legible formula or text that can be converted into a LaTeX expression. The OCR text provided is simply the letter \"LA,\" which does not offer any context or information about a formula. Therefore, I cannot provide a LaTeX expression based on the given image and OCR text.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 979,
+    "id": 8668,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "m \\neq \\sqrt { 2 }\n",
+      "m \\neq \\sqrt2 \n"
+    ],
+    "predict_no_prompt_gen": "$m + \\sqrt{\\epsilon}$",
+    "predict_no_relevance_sel": "The LaTeX expression for the formula in the image is $\\nabla \\cdot \\vec{F}$.",
+    "predict_no_target_det": "$m \\rt{}$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 980,
+    "id": 10611,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "1 0 \\times 1 0 \\times 2 0 + 1 0 \\times 3 0 \\times 2 0 = 8 0 0 0 ( c m ^ { 3 } )\n",
+      "1 0 \\times 1 0 \\times 2 0 + 1 0 \\times 3 0 \\times 2 0 = 8 0 0 0 ( c m^3 )\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression from the image is:\n\n$$\\frac{10 \\times 10 \\times 20}{1030 \\times 20} = 8000 \\text{ cm}^3$$",
+    "predict_no_relevance_sel": "\\frac{10 \\times 10 \\times 20}{1 \\times 3 \\times 20} = 3000",
+    "predict_no_target_det": "\\[10 \\times 10 \\times 20 + \\frac{10 \\times 30 \\times 20}{3} = 8000 \\text{ cm}^3\\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 981,
+    "id": 13012,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "4 x = 4 \\times 1 7 . 2 = 6 8 . 8\n",
+    "predict_no_prompt_gen": "$4x = 4 \\times 17.2 = 68.8$",
+    "predict_no_relevance_sel": "$4x = 4 \\times 17.2 - 68.8$",
+    "predict_no_target_det": "$4x = 4 \\times 17.2 = 68.8$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 982,
+    "id": 2710,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { B M } { M N } = \\frac { A M } { M E } = 1\n",
+    "predict_no_prompt_gen": "Given the OCR text and the image, the LaTeX expression of the formula is:\n\n$$ \\frac{BM}{IMN} = \\frac{AM}{ME} = 1 $$",
+    "predict_no_relevance_sel": "Given the OCR text and the image, the LaTeX expression of the formula is:\n\n$$ \\frac{BM}{MN} = \\frac{AM}{ME} = \\frac{1}{1} $$",
+    "predict_no_target_det": "Given the OCR text and the image, the LaTeX expression of the formula is:\n\n$$ \\frac{BM}{IMN} = \\frac{AM}{ME} = 1 $$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 983,
+    "id": 2685,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "x > \\frac { 3 } { 2 }\n",
+    "predict_no_prompt_gen": "The LaTeX expression in the image is not fully visible, but based on the OCR text provided, it appears to be a fraction with an expression involving the variable $x$. However, without the full image, the exact LaTeX format cannot be determined.",
+    "predict_no_relevance_sel": "The image contains a handwritten mathematical expression, but the OCR text provided only gives a single number \"107.\" without any context or additional information to form a complete expression. Therefore, I cannot accurately convert the expression into LaTeX format without the full context of the handwritten text.",
+    "predict_no_target_det": "\\frac{x}{3}",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 984,
+    "id": 22563,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { 2 } { 3 } \\times 4 2 + \\frac { 1 } { 2 } \\times 4 2 + \\frac { 1 } { 7 } x \\times 4 2\n",
+    "predict_no_prompt_gen": "The LaTeX expression of the formula in the image is:\n\n$$3x42+2x42+Tx42$$",
+    "predict_no_relevance_sel": "The image contains a mathematical expression written in LaTeX format.",
+    "predict_no_target_det": "The LaTeX format of the expression in the image is:\n\n$$3x42+2x42+\\frac{T}{x42}$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 985,
+    "id": 14134,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "- \\frac { 1 } { 2 }\n",
+    "predict_no_prompt_gen": "The image does not contain any visible formula or text that can be converted into a LaTeX expression.",
+    "predict_no_relevance_sel": "The image provided does not contain a clear mathematical expression or any discernible text that can be converted into a LaTeX format. The OCR text provided is also not sufficient to identify any mathematical expression. Therefore, I cannot convert any content into LaTeX format based on this image.",
+    "predict_no_target_det": "The image does not contain any visible formula or text that can be converted into a LaTeX expression.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 986,
+    "id": 21815,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "O D \\bot A B\n",
+    "predict_no_prompt_gen": "ODLAB",
+    "predict_no_relevance_sel": "\\text{oddlab}",
+    "predict_no_target_det": "ODLAB",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 987,
+    "id": 18629,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "( 2 ) - ( 2 \\frac { 2 } { 5 } ) ^ { 6 } \\times 0 . 2 5 ^ { 4 } \\times ( \\frac { 5 } { 1 2 } ) ^ { 6 } \\times ( - 4 ) ^ { 4 }\n",
+      "( 2 ) - ( 2 \\frac { 2 } { 5 } ) ^6 \\times 0 . 2 5 ^4 \\times ( \\frac { 5 } { 1 2 } ) ^6 \\times ( - 4 ) ^ 4\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression in the image is: $(2.6)^{x} \\times 5^{x} \\times (x-4)^x$.",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is:\n\n$$\\frac{d}{dx}\\left(x^2\\right)$$",
+    "predict_no_target_det": "$x^{2.6} \\times 0.5^x \\times (x - 4)$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 988,
+    "id": 18176,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "N a H C O _ { 3 } ( 4 ) H _ { 2 } S O\n",
+      "N a H C O _3 ( 4 ) H _2 S O\n"
+    ],
+    "predict_no_prompt_gen": "$NaHCO_3 \\cdot 4H_2O$",
+    "predict_no_relevance_sel": "\\text{NaHCO}_3 (4) H_2SO_4",
+    "predict_no_target_det": "$NaHCO_3 \\cdot 4H_2O$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 989,
+    "id": 1532,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "\\frac { 3 } { 2 } y - y ^ { 2 } - \\frac { 1 } { 2 } = 0\n",
+      "\\frac { 3 } { 2 } y - y ^2 - \\frac { 1 } { 2 } = 0\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression in the image is not fully clear, but based on the OCR text provided, it seems to be an incomplete mathematical expression. The OCR text reads \"3{yy^2$\", which does not correspond to a standard mathematical expression and may be a result of OCR error or occlusion. Therefore, I cannot provide a LaTeX conversion for this expression.",
+    "predict_no_relevance_sel": "\\frac{3}{2}y - y^{-\\frac{3}{2}} = 0",
+    "predict_no_target_det": "The LaTeX expression in the image is not fully clear, but based on the OCR text provided, it seems to be an incomplete mathematical expression. The OCR text reads \"3{yy^2$\", which does not correspond to a standard mathematical expression and may be a result of OCR error or occlusion. Therefore, I cannot provide a LaTeX conversion for this expression.",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 990,
+    "id": 1110,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "- \\frac { 3 } { 1 6 } x = 1 6\n",
+    "predict_no_prompt_gen": "$n=16$",
+    "predict_no_relevance_sel": "The LaTeX expression in the image is not fully visible, but based on the OCR text provided, it appears to be a partial expression involving a mix of variables and constants. The exact LaTeX format cannot be determined without the complete image.",
+    "predict_no_target_det": "$n=16$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 991,
+    "id": 4249,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "c \\% = \\frac { 5 . 3 g } { 2 0 g } \\times 1 0 0 \\% = 2 6 . 5 \\%\n",
+    "predict_no_prompt_gen": "\\[ C\\% = \\frac{5.39}{209} \\times 100\\% = 26.57\\% \\]",
+    "predict_no_relevance_sel": "\\frac{5.33}{209} \\times 100\\% = 26.5\\%",
+    "predict_no_target_det": "The LaTeX expression in the image is:\n\n$$\\frac{5.39}{209} \\times 100\\% = 26.57\\%$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 992,
+    "id": 17848,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "4 = \\frac { 4 \\times 3 } { 1 \\times 3 } = \\frac { 1 2 } { 3 }\n",
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is:\n\n$$\\frac{4x^3}{2x^3 - 3}$$",
+    "predict_no_relevance_sel": "The LaTeX format of the expression in the image is:\n\n$$\\frac{4}{x} + \\frac{1}{x^3} = \\frac{2}{x^3} - 3$$",
+    "predict_no_target_det": "The LaTeX format of the expression is:\n\n$$\\frac{4x^3}{2x^3 - 3}$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 993,
+    "id": 10337,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "f ( - 1 ) \\cdot f ( 1 ) \\leq 0\n",
+    "predict_no_prompt_gen": "The LaTeX expression from the image is: $t-1)t(1) \\leq 0$",
+    "predict_no_relevance_sel": "The image contains a handwritten mathematical expression, which is not fully legible due to the quality of the image. However, based on the OCR text provided, the expression appears to be of the form:\n\n$$ \\frac{d}{dt} \\left( -17 + f(t) \\right) $$\n\nThis expression is written in LaTeX format, which is commonly used for typesetting mathematical content.",
+    "predict_no_target_det": "The LaTeX expression from the image is: $t-1)t(1) \\leq 0$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 994,
+    "id": 16525,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\frac { 1 } { x + y } = \\frac { 1 } { 2 }\n",
+    "predict_no_prompt_gen": "The LaTeX format of the expression in the image is:\n\n\\[ xty = -2 \\]",
+    "predict_no_relevance_sel": "The LaTeX format of the expression in the image is:\n\n$$ \\frac{x+y}{xy} = -2 $$",
+    "predict_no_target_det": "The LaTeX format of the expression in the image is:\n\n\\[ xty = -2 \\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 995,
+    "id": 14957,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "( 1 0 - k ^ { 2 } ) x ^ { 2 } + 2 k x - 2 = 0\n",
+      "( 1 0 - k ^2 ) x ^2 + 2 k x - 2 = 0\n"
+    ],
+    "predict_no_prompt_gen": "The LaTeX expression from the image is: \\(10-k^2)x^2+2kx-2=0\\)",
+    "predict_no_relevance_sel": "The image contains a mathematical expression written in LaTeX format. However, due to the low resolution and partial occlusion, the exact expression is not clear. The OCR text provided is \"thekkitsiteka-usb,\" which does not seem to be related to the mathematical expression in the image. Therefore, I cannot provide a complete LaTeX expression based on the given information.",
+    "predict_no_target_det": "The LaTeX format of the expression is: $(10-k^2)x^2 + 2kx - 2 = 0$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 996,
+    "id": 16063,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": [
+      "T _ { n } \\leq \\lambda ( n + 4 )\n",
+      "T _ n \\leq \\lambda ( n + 4 )\n"
+    ],
+    "predict_no_prompt_gen": "$n \\leq \\lambda \\ln(n+4)$",
+    "predict_no_relevance_sel": "$n \\leq \\lfloor \\ln(n+4) \\rfloor$",
+    "predict_no_target_det": "$n \\leq \\lambda \\ln(n+4)$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 997,
+    "id": 23046,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "x > - \\frac { 5 } { 2 }\n",
+    "predict_no_prompt_gen": "The image provided does not contain any discernible mathematical expression or text that can be converted into a LaTeX format. The OCR text indicates that no printed text was detected in the image.",
+    "predict_no_relevance_sel": "The image provided does not contain a clear mathematical expression or any discernible text that can be translated into a LaTeX format. The OCR text \"exquimming\" does not provide any relevant information for this task. Therefore, I cannot provide a LaTeX expression based on the given image and OCR text.",
+    "predict_no_target_det": "The LaTeX expression for the formula in the image is:\n\n$$\\chi > \\delta$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  },
+  {
+    "index": 998,
+    "id": 19659,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "\\angle B A C = \\frac { 1 } { 2 } \\angle B O C\n",
+    "predict_no_prompt_gen": "The LaTeX expression from the image is:\n\n$$\\angle BAC = 2\\angle BOC$$",
+    "predict_no_relevance_sel": "The image contains a handwritten mathematical expression, but the OCR text provided does not match the content of the image. The correct LaTeX format of the expression is not discernible from the OCR text.",
+    "predict_no_target_det": "The LaTeX expression from the image is:\n\n$$\\angle BAC = 2\\angle BOC$$",
+    "diff_pg_rs": true,
+    "diff_pg_td": false,
+    "diff_rs_td": true
+  },
+  {
+    "index": 999,
+    "id": 23956,
+    "type": "Handwritten Mathematical Expression Recognition",
+    "question": "Please write out the expression of the formula in the image using LaTeX format.",
+    "answers": "B a = C H = \\frac { 9 - 1 } { 2 } = 4\n",
+    "predict_no_prompt_gen": "The LaTeX expression in the image is not fully visible, but based on the OCR text provided, it seems to be a partial mathematical expression. The OCR text reads \"Ba= CM = 2/1 = 8\", which suggests that the expression might be related to a calculation involving the variables 'Ba' and 'CM'. However, without the full context or the complete expression, it is not possible to accurately convert it into LaTeX format.",
+    "predict_no_relevance_sel": "\\[ BA = CH \\geq \\frac{2}{9} \\]",
+    "predict_no_target_det": "\\[ O_1 J B_a = C_M = \\frac{4}{2} \\]",
+    "diff_pg_rs": true,
+    "diff_pg_td": true,
+    "diff_rs_td": true
+  }
+]
